@@ -1,0 +1,24 @@
+{
+  "name": "gitflow-demo-toolkit",
+  "version": "1.0.0",
+  "description": "Proyecto de demo para exposición sobre Merge Requests, Code Review y Revert usando Git Flow.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "test": "ts-node src/index.ts"
+  },
+  "keywords": ["git-flow", "demo", "typescript"],
+  "author": "Guillermo",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.14.0",
+    "eslint": "^8.57.0",
+    "@typescript-eslint/eslint-plugin": "^7.16.0",
+    "@typescript-eslint/parser": "^7.16.0"
+  }
+}
